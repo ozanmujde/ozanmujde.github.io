@@ -4,12 +4,12 @@ import RouterButton from "./UI/RouterButton";
 const Buttons = () => {
   const goToGitHub = (event) => {
     // event.preventDefault();
-    console.log('asd');
+    console.log("asd");
     window.location.href = "https://github.com/ozanmujde";
   };
   const goToLinkedIn = (event) => {
     // event.preventDefault();
-    console.log('asd');
+    console.log("asd");
     window.location.href = "https://www.linkedin.com/in/ozanmujde";
   };
   return (

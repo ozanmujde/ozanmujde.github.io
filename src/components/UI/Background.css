@@ -5,8 +5,8 @@
   height: 100vh;
   font-size: 50px;
   background-position: center;
-  background-repeat: repeat-y;
-  background-size: cover;
+  /* background-repeat: repeat-y; */
+  /* background-size: cover; */
   
 }
 
