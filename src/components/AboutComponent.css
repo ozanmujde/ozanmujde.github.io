@@ -4,10 +4,13 @@
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 60%;
+  margin: auto;
+  opacity: 0;
+  transition: opacity 1.5s ease-in-out;
   /* margin-left: 5rem ; */
   /* margin-right: 5rem; */
   /* background-color: red; */
+
 }
 
 .about__header {
@@ -25,4 +28,8 @@
   margin: auto;
   width: 60%;
   margin-bottom: 2rem;
+}
+
+.fade-in {
+  opacity: 1;
 }

@@ -1,10 +1,13 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./AboutComponent.css";
 import anime from "animejs";
 const AboutComponent = () => {
-  const animation = useRef(null);
+  const [cssClasses, setCssClasses] = useState(["about__wrapper"]);
+  useEffect(() => {
+    setCssClasses((prevClasses) => [...prevClasses, "fade-in"]);
+  }, []);
   return (
-    <div className="about__wrapper">
+    <div className={cssClasses.join(" ")}>
       <div className="about__header">About Me</div>
       <div className="about__information">
         Hello I am Ozan Müjde. I am a senior computer engineering student at the
