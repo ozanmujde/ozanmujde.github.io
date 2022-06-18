@@ -1,11 +1,13 @@
 import React, { Fragment } from "react";
-import classes from "./Wisdomizer.module.css";
+import "./Wisdomizer.css";
 import Background from "../components/UI/Background";
+import Wisdom from "../components/wisdoms/Wisdom";
 const Wisdomizer = () => {
   return (
-    <Background style={{ margin: "auto" }}>
-      <div style={{color:'white'}}>Still Working</div>
-      <div className={classes["fire-container"]}></div>
+    <Background>
+      <div style={{ color: "white" }}>Still Working</div>
+      <Wisdom />
+      <div className="fire__container"></div>
     </Background>
   );
 };

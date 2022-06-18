@@ -5,8 +5,8 @@ import About from "./pages/About";
 import Wisdomizer from "./pages/Wisdomizer";
 function App() {
   return (
-    <div>
-      <main>
+    <div style={{width:'100%'}}>
+      <main style={{width:'100%'}}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
