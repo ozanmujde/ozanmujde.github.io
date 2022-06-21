@@ -1,10 +1,81 @@
-.website__background {
+/* .website__background {
   background-image: url("https://wallpaperaccess.com/full/17498.jpg");
   /* background-size: "cover"; */
-  width: 100%;
+/* width: 100%;
   height: 100%;
-  font-size: 50px;
-  /* background-position: center; */
-  /* background-repeat: repeat-y; */
-  /* background-size: cover; */
+  font-size: 50px; */
+/* background-position: center; */
+/* background-repeat: repeat-y; */
+/* background-size: cover; 
+} */
+
+.website__background {
+  /* position: fixed; */
+  /*top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%; */
+  /* z-index: -10; */
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://wallpaperaccess.com/full/17498.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  background: transparent
+    url("http://assets.iceable.com/img/noise-transparent.png") repeat 0 0;
+  background-repeat: repeat;
+  animation: bg-animation 0.2s infinite;
+  opacity: 0.9;
+  visibility: visible;
 }
+
+@keyframes bg-animation {
+  0% {
+    /* transform: translate(0, 0); */
+    transform: background-position(0 0);
+  }
+  10% {
+    /* transform: translate(-5%, -5%); */
+    transform: background-position(-5% -5%);
+  }
+  20% {
+    /* transform: translate(-10%, 5%); */
+    transform: background-position(-10% 5%);
+  }
+  30% {
+    /* transform: translate(5%, -10%); */
+    transform: background-position(5% -10%);
+  }
+  40% {
+    /* transform: translate(-5%, 15%); */
+    transform: background-position(-5% -15%);
+  }
+  50% {
+    /* transform: translate(-10%, 5%); */
+    transform: background-position(-10% 5%);
+  }
+  60% {
+    /* transform: translate(15%, 0); */
+    transform: background-position(15% 0%);
+  }
+  70% {
+    /* transform: translate(0, 10%); */
+    transform: background-position(-5% -5%);
+  }
+  80% {
+    /* transform: translate(-15%, 0); */
+    transform: background-position(-5% -5%);
+  }
+  90% {
+    /* transform: translate(10%, 5%); */
+    transform: background-position(-5% -5%);
+  }
+  100% {
+    /* transform: translate(5%, 0); */
+    transform: background-position(-5% -5%);
+  }
+}
+
+

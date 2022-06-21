@@ -1,11 +1,13 @@
 .quote {
-  background-color: #162b2b;
-  color: white;
+  background-color: #1bc7fb;
+  color: #162b2b;
   border-radius: 6px;
   padding: 3rem;
   margin: 3rem auto;
   width: 90%;
   max-width: 40rem;
+  /* box-shadow: 0px 0px 10px rgba(233, 42, 42, 0.5); */
+  filter: drop-shadow(10 5px 10px);
 }
 
 .quote p {
@@ -16,5 +18,6 @@
   font-style: italic;
   font-size: 1.5rem;
   text-align: right;
-  color: #a1e0e0;
+  /* color: #a1e0e0; */
+  color: #162b2b;
 }

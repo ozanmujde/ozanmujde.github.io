@@ -17,7 +17,8 @@ body, html {
   margin: 0;
 }
 body {
-  background-image: url("https://wallpaperaccess.com/full/17498.jpg");
+  /* background-image: url("https://wallpaperaccess.com/full/17498.jpg"); */
+  background-color: #07171C;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

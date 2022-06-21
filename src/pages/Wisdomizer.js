@@ -7,7 +7,7 @@ const Wisdomizer = () => {
     <Background>
       <div style={{ color: "white" }}>Still Working</div>
       <Wisdom />
-      <div className="fire__container"></div>
+      {/* <div className="fire__container"></div> */}
     </Background>
   );
 };

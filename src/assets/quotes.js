@@ -41,8 +41,8 @@ const quotes = [
   },
   {
     id: 8,
-    text: "test9",
-    author: "Ozan Müjde",
+    text: "If the monkey is looking at the mountain,it is looking for a banana",
+    author: "The Gocuman",
   },
   {
     id: 9,

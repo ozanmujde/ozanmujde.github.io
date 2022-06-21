@@ -25,7 +25,8 @@
   position: relative;
   width: 180px;
   height: 60px;
-  margin: 20px;
+  margin: 1.6rem;
+  margin-top: 4rem;
   line-height: 60px;
   letter-spacing: 2px;
   text-decoration: none;
@@ -36,6 +37,8 @@
   -webkit-transition: 0.4s; /* Safari */
   transition: 0.4s;
   border: 1px solid #ec1840;
+  font-family: 'Montserrat', sans-serif;
+  
 
   /* &:last-of-type {
     border: 1px solid var(--color-purple);
@@ -45,7 +48,6 @@
     }
   } */
 }
-
 .button:hover,
 .button:active,
 .button:focus {

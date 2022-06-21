@@ -1,3 +1,16 @@
 .wisdom__container {
     cursor: pointer;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #162b2b; */
+    /* color: white; */
+    /* border-radius: 6px; */
+    padding: 3rem;
+    margin: 3rem auto;
+    /* box-shadow: 0px 0px 10px rgba(233, 42, 42, 0.5); */
+    filter: drop-shadow(0 1px 3px);
+
 }

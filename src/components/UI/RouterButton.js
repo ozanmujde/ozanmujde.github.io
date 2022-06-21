@@ -6,7 +6,7 @@ import classes from "./Button.module.css";
 const RouterButton = (props) => {
   return (
     <Link to={props.to}>
-      <Button className={classes.button}>{props.children}</Button>
+      <Button >{props.children}</Button>
     </Link>
   );
 };
