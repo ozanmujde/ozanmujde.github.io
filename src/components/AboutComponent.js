@@ -1,7 +1,7 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./AboutComponent.css";
-import CVPdf from "../assets/Curriculum_Vitae_Latex.pdf";
-import anime from "animejs";
+import CVPdf from '../assets/Curriculum_Vitae_Latex.pdf';
+
 import Button from "./UI/Button";
 const AboutComponent = () => {
   const [cssClasses, setCssClasses] = useState(["about__wrapper"]);
@@ -31,9 +31,7 @@ const AboutComponent = () => {
       </div>
       <div>
         <a href={CVPdf} without rel="noopener noreferrer" target="_blank">
-          <Button label="Resume">
-            DOWNLOAD RESUME
-          </Button>
+          <Button label="Resume">DOWNLOAD RESUME</Button>
         </a>
       </div>
     </div>

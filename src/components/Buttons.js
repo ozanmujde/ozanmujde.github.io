@@ -18,6 +18,7 @@ const Buttons = () => {
       <Button onClick={goToLinkedIn}>LinkedIn</Button>
       <RouterButton to="/about">About</RouterButton>
       <RouterButton to="/wisdomizer">Wisdomizer</RouterButton>
+      <RouterButton to="/sorting">Sorting</RouterButton>
     </div>
   );
 };
