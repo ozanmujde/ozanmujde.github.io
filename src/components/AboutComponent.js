@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./AboutComponent.css";
-import CVPdf from '../assets/Curriculum_Vitae_Latex.pdf';
+import CVPdf from "../assets/Curriculum_Vitae_Latex.pdf";
 
 import Button from "./UI/Button";
 const AboutComponent = () => {
