@@ -1,6 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./AboutComponent.css";
+import CVPdf from "../assets/Curriculum_Vitae_Latex.pdf";
 import anime from "animejs";
+import Button from "./UI/Button";
 const AboutComponent = () => {
   const [cssClasses, setCssClasses] = useState(["about__wrapper"]);
   useEffect(() => {
@@ -8,27 +10,31 @@ const AboutComponent = () => {
   }, []);
   return (
     <div className={cssClasses.join(" ")}>
-      <div className="about__header">About Me</div>
+      {/* <h3>ABOUT</h3> */}
+      <div className="about__header">Let me introduce myself</div>
       <div className="about__information">
         Hello I am Ozan Müjde. I am a senior computer engineering student at the
         TOBB ETU. I am interested in web development,machine learning and neural
         networks.
         <br />
         <br />
-        Mauris ultrices ac odio a finibus. Aliquam vitae semper tellus. Fusce
-        tincidunt at sapien vel porta. Curabitur non orci odio. Sed neque lorem,
-        placerat eu blandit ac, egestas ac ante. Pellentesque tortor risus,
-        ullamcorper at leo a, porttitor gravida sem. Donec est mauris, posuere
-        in mollis vitae, mollis a ante. Ut cursus malesuada turpis sit amet
-        bibendum. Nullam et feugiat odio. Sed dictum, eros et porta elementum,
-        magna augue porta massa, sed facilisis turpis massa ac mi. Ut vel
-        commodo tortor. Nulla elementum sit amet neque tempor pharetra.
-        Suspendisse et imperdiet nibh, ac volutpat dolor. Maecenas id diam eros.
-        Nulla sem nunc, rutrum ac dolor nec, placerat ullamcorper mauris.
-        Quisque cursus feugiat commodo. Praesent vehicula nisi mi, in rhoncus
-        quam tempor in. Praesent nec vehicula nulla. Pellentesque ut ullamcorper
-        posuere lobortis eu velit. Vestibulum id egestas elit. Pellentesque a
-        molestie mi.
+        I did an internship at STM which I worked on weak supervision in
+        numerous Turkish datasets. I also did another internship at the HAVELSAN
+        which I worked on a React based video conference project. I implemented
+        a virtual background system etc.
+        <br />
+        <br />
+        You can see my projects on my github account. For example we did a
+        mobile React Native project called wlobby which can be thought as a
+        tinder for movie enthusiasts where you can se open and join adverts for
+        movies then you can chat with other users about everything.
+      </div>
+      <div>
+        <a href={CVPdf} without rel="noopener noreferrer" target="_blank">
+          <Button label="Resume">
+            DOWNLOAD RESUME
+          </Button>
+        </a>
       </div>
     </div>
   );
