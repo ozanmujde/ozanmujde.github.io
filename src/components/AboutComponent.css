@@ -10,13 +10,12 @@
   /* margin-left: 5rem ; */
   /* margin-right: 5rem; */
   /* background-color: red; */
-
 }
 
 .about__header {
   font-size: 3rem;
   font-weight: bold;
-  color: #D0021E;
+  color: #d0021e;
   text-align: center;
   margin-bottom: 2rem;
 }
@@ -32,4 +31,10 @@
 
 .fade-in {
   opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .about__information {
+    width: 80%;
+  }
 }

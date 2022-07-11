@@ -2,7 +2,7 @@ import React, { useState, useRef } from "react";
 import anime from "animejs";
 import quotes from "../../assets/quotes";
 import HighlightedQuote from "./HighlightedQuote";
-import "./Wisdom.css";
+import styled from "@emotion/styled";
 const Wisdom = () => {
   const animation = useRef(null);
   const starterIndex = Math.floor(Math.random() * quotes.length);
@@ -28,14 +28,23 @@ const Wisdom = () => {
     setIsClicked(true);
   };
   return (
-    <div onClick={onClickHandler} className="wisdom__container">
+    <QuoteContainer onClick={onClickHandler}>
       {isClicked ? (
         <HighlightedQuote text={quote.text} author={quote.author} />
       ) : (
         <HighlightedQuote text="Click here" author="" />
       )}
-    </div>
+    </QuoteContainer>
   );
 };
 
 export default Wisdom;
+
+const QuoteContainer = styled.div`
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+`;

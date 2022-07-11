@@ -1,6 +1,6 @@
 import React from "react";
 import anime from "animejs";
-import { useState, useRef, useEffect } from "react";
+import { useRef, useEffect } from "react";
 import "./HomeAnimation.css";
 const HomeAnimation = () => {
   const animation = useRef(null);

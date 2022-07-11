@@ -37,16 +37,7 @@
   -webkit-transition: 0.4s; /* Safari */
   transition: 0.4s;
   border: 1px solid #ec1840;
-  font-family: 'Montserrat', sans-serif;
-  
-
-  /* &:last-of-type {
-    border: 1px solid var(--color-purple);
-    &:hover {
-      background: var(--color-purple)
-        url(https://i.postimg.cc/FzBWFtKM/pixel2.png); // 360px x 1080px
-    }
-  } */
+  font-family: inherit;
 }
 .button:hover,
 .button:active,

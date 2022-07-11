@@ -1,20 +1,35 @@
 import React, { Fragment } from "react";
-import classes from "./Home.module.css";
 import Buttons from "../components/Buttons";
-import Background from "../components/UI/Background";
-import HomeAnimation from "../components/HomeAnimation";
 import AnimatedText from "../components/UI/AnimatedText";
+import styled from "@emotion/styled";
 const Home = () => {
   return (
-    <Background>
-      <div className={classes["home-flex"]}>
-        {/* <HomeAnimation /> */}
-        <AnimatedText />
-        {/* <div style={{ color: "white" }}>Still Working</div> */}
-        <Buttons />
-      </div>
-    </Background>
+    <HomeContainer>
+      <AnimatedText />
+      <Buttons />
+    </HomeContainer>
   );
 };
 
 export default Home;
+
+const HomeContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  @media (max-width: 768px) {
+    height: auto;
+  }
+`;
+
+// display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   @media (max-width: 768px) {
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//   }

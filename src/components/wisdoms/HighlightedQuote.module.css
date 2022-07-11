@@ -1,5 +1,5 @@
 .quote {
-  background-color: #1bc7fb;
+  background-color: #ec1840;
   color: #162b2b;
   border-radius: 6px;
   padding: 3rem;
@@ -9,7 +9,6 @@
   /* box-shadow: 0px 0px 10px rgba(233, 42, 42, 0.5); */
   filter: drop-shadow(10 5px 10px);
 }
-
 .quote p {
   font-size: 2.5rem;
 }
@@ -20,4 +19,10 @@
   text-align: right;
   /* color: #a1e0e0; */
   color: #162b2b;
+}
+@media screen and (max-width: 768px) {
+  .quote {
+    max-width: 30rem;
+    max-height: 25rem;
+  }
 }
