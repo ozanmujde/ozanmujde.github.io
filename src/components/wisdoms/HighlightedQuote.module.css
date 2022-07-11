@@ -23,6 +23,5 @@
 @media screen and (max-width: 768px) {
   .quote {
     max-width: 30rem;
-    max-height: 25rem;
   }
 }
