@@ -5,8 +5,9 @@
 }
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "M PLUS Rounded 1c",
-    sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, "M PLUS Rounded 1c",
+    sans-serif; */
+  font-family: "M PLUS Rounded 1c", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
