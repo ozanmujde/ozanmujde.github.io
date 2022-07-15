@@ -31,7 +31,7 @@ const ButtonsContainer = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  @media (max-width: 768px) {
+  @media (max-width: 1007px) {
     flex-direction: column;
     align-items: center;
     justify-content: center;

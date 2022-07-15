@@ -18,6 +18,7 @@
   color: #d0021e;
   text-align: center;
   margin-bottom: 2rem;
+  margin-top: 2rem;
 }
 
 .about__information {
@@ -26,7 +27,7 @@
   text-align: center;
   margin: auto;
   width: 60%;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
 }
 
 .fade-in {

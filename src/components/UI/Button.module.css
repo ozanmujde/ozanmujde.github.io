@@ -38,6 +38,7 @@
   transition: 0.4s;
   border: 1px solid #ec1840;
   font-family: inherit;
+  font-weight: bold;
 }
 .button:hover,
 .button:active,

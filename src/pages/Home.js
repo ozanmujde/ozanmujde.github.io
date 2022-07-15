@@ -19,7 +19,7 @@ const HomeContainer = styled.div`
   align-items: center;
   justify-content: center;
   height: 100vh;
-  @media (max-width: 768px) {
+  @media (max-width: 1007px) {
     height: auto;
   }
 `;
