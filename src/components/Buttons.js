@@ -5,12 +5,10 @@ import styled from "@emotion/styled";
 const Buttons = () => {
   const goToGitHub = (event) => {
     // event.preventDefault();
-    console.log("asd");
     window.location.href = "https://github.com/ozanmujde";
   };
   const goToLinkedIn = (event) => {
     // event.preventDefault();
-    console.log("asd");
     window.location.href = "https://www.linkedin.com/in/ozanmujde";
   };
   return (
@@ -31,6 +29,7 @@ const ButtonsContainer = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin: 10px 0 -10px 10px;
   @media (max-width: 1007px) {
     flex-direction: column;
     align-items: center;

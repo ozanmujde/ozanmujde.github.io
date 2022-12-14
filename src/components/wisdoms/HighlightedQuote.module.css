@@ -1,13 +1,20 @@
 .quote {
-  background-color: #ec1840;
-  color: #162b2b;
+  --glow-color: rgb(217, 176, 255);
+ --glow-spread-color: rgba(191, 123, 255, 0.781);
+ --enhanced-glow-color: rgb(231, 206, 255);
+ --container-color: rgb(100, 61, 136);
   border-radius: 6px;
   padding: 3rem;
   margin: 3rem auto;
   width: 90%;
   max-width: 60rem;
-  /* box-shadow: 0px 0px 10px rgba(233, 42, 42, 0.5); */
-  filter: drop-shadow(10 5px 10px);
+  box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 1em var(--glow-spread-color),
+        inset 0 0 .75em .25em var(--glow-color);
+ text-shadow: 0 0 .5em var(--glow-color);
+ background-color: var(--container-color);
+ color:var(--glow-color) ;
+ transition: all 0.3s;
 }
 .quote p {
   font-size: 2.5rem;
@@ -18,7 +25,7 @@
   font-size: 1.5rem;
   text-align: right;
   /* color: #a1e0e0; */
-  color: #162b2b;
+ color:var(--glow-color) ;
 }
 @media screen and (max-width: 768px) {
   .quote {
