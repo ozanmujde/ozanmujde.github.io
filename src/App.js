@@ -11,11 +11,11 @@ function App() {
     <div style={{ width: "100%" }}>
       <main style={{ width: "100%" }}>
         <Routes>
-          <Route path="*" element={<NotFound />} />
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/wisdomizer" element={<Wisdomizer />} />
           <Route path="/sorting" element={<Sorting />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
     </div>
