@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import Buttons from "../components/Buttons";
 import AnimatedText from "../components/UI/AnimatedText";
 import styled from "@emotion/styled";
@@ -24,7 +24,7 @@ const HomeContainer = styled.div`
   }
 `;
 
-// display: flex;
+// display: flex;P
 //   flex-direction: column;
 //   align-items: center;
 //   justify-content: center;
